@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="main-counter">
+        <p>Timer⏳</p>
+        <div class="timer">
+            <input id="minut" type="number">
+            <input id="sekund" type="number">
+        </div>
+    
+        <div class="counters">
+            <p id="minut-counter">00</p>
+            <p>:</p>
+            <p id="sekund-counter">00</p>
+        </div>
+
+        <button id="start-button">Start</button>
+        <audio id="audio" src="./assets/timer_sound.mp3"></audio>
+    </div>
+    <script src="./main.js"></script> 
+</body>
+</html>
